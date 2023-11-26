@@ -1,0 +1,123 @@
+.header {
+  display: flex;
+  width: 144rem;
+  height: 9.7rem;
+  padding: 1.8rem 1rem 1rem 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+  /* tablet view */
+  @media (max-width: 1024px) {
+    width: 83.4rem;
+    margin-top: 3.25rem;
+    margin-bottom: 2.45rem;
+  }
+  /* mobile view */
+  @media (max-width: 768px) {
+    width: 39rem;
+    padding-top: unset;
+    margin-top: 1.4rem;
+    padding-bottom: unset;
+    margin-bottom: 1.4rem;
+    height: unset;
+  }
+}
+
+.header__svg {
+  display: none;
+  /* mobile view */
+  @media (max-width: 768px) {
+    display: block;
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+}
+
+.nav__header {
+  display: flex;
+  width: 100%;
+  /* tablet view */
+  @media (max-width: 1024px) {
+    /* … */
+  }
+  /* mobile view */
+  @media (max-width: 768px) {
+    align-items: center;
+  }
+}
+
+.icon__header {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 8.2rem;
+  /* tablet view */
+  @media (max-width: 1024px) {
+    margin-left: 4.4rem;
+  }
+  /* mobile view */
+  @media (max-width: 768px) {
+    margin-left: 2.8rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.nav__about {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* tablet view */
+  @media (max-width: 1024px) {
+    /* … */
+  }
+  /* mobile view */
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.nav__resume {
+  display: flex;
+  padding: 0.8rem 1.4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  background: #03bfe8;
+  color: #000;
+  font-family: Clash Display;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  margin-right: 7.2rem;
+  margin-left: -1rem;
+  /* tablet view */
+  @media (max-width: 1024px) {
+    margin-right: 3.2rem;
+  }
+  /* mobile view */
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.nav__headings {
+  display: flex;
+  margin-left: auto;
+  gap: 2.8rem;
+  display: flex;
+  padding: 0.8rem 1rem;
+  justify-content: center;
+  align-items: center;
+
+  /* mobile view */
+  @media (max-width: 768px) {
+    /* … */
+  }
+}

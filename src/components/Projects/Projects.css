@@ -1,0 +1,77 @@
+.projects {
+  width: 144rem;
+  margin-top: 10.6rem;
+}
+.projects__header {
+  display: flex;
+  gap: 2.4rem;
+}
+.projects__heading {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 10.1rem;
+}
+.projects__line {
+  display: block;
+  width: 67.5rem;
+  height: 0.2rem;
+  background: #fff;
+  margin-top: 2rem;
+}
+.projects__contents {
+  width: 43.8rem;
+  color: #fff;
+  font-family: Manjari;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.036rem;
+  margin-top: 2.2rem;
+  margin-left: 10.1rem;
+}
+.project__round {
+  width: 8.7961rem;
+  height: 8.8471rem;
+  margin-left: 72.6rem;
+}
+.projects__start {
+  display: flex;
+  gap: 13.8rem;
+  width: 144rem;
+}
+.projects__img {
+  width: 60.6rem;
+  height: 46.8rem;
+  border-radius: 0.4rem;
+  border: 1px solid #747474;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  margin-left: 9.8rem;
+}
+.projects__startheader {
+  display: flex;
+  gap: 4.9rem;
+}
+.projects__startimg {
+  width: 28.8rem;
+  height: 10.8rem;
+}
+.projects__starticon {
+  width: 7.9511rem;
+  height: 6.112rem;
+}
+.projects__startp {
+  color: #fff;
+  font-family: Manjari;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.036rem;
+  width: 42.7rem;
+  margin-top: 3.2rem;
+}

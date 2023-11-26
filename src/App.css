@@ -1,0 +1,9 @@
+/* tablet view */
+@media (max-width: 1024px) {
+  /* … */
+}
+
+/* mobile view */
+@media (max-width: 768px) {
+  /* … */
+}

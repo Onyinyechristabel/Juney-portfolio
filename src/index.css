@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+html {
+  font-size: calc(100vw / 1440 * 10);
+  font-family: "Clash Display", sans-serif;
+  background-color: #000000;
+}
+
+body {
+  background: #151c24;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: calc(100vw / 834 * 10);
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: calc(100vw / 390 * 10);
+  }
+  /* font-family: 'Freehand', cursive; */
+  /* font-family: 'Manjari', sans-serif; */
+}
