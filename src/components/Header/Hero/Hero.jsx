@@ -45,6 +45,7 @@ function Hero() {
         />
       </svg>
       <p className="hero__sign">Juney</p>
+      <div className="hero__line"></div>
     </div>
   );
 }

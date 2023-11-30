@@ -4,7 +4,7 @@
   /* tablet view */
   @media (max-width: 1024px) {
     width: 83.6rem;
-    margin-top: 3.7rem;
+    margin-top: 5.25rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
@@ -21,6 +21,7 @@
   }
   /* mobile view */
   @media (max-width: 768px) {
+    align-items: center;
   }
 }
 .projects__heading {
@@ -67,7 +68,9 @@
   }
   /* mobile view */
   @media (max-width: 768px) {
+    background: #fff;
     width: 10.5rem;
+    margin: unset;
   }
 }
 .projects__contents {
@@ -97,16 +100,23 @@
   @media (max-width: 768px) {
     width: 23rem;
     margin-left: 2.05rem;
+    margin-top: 1.6rem;
+    font-size: 1.3rem;
   }
 }
 .project__round {
   width: 8.7961rem;
   height: 8.8471rem;
   margin-left: 72.6rem;
+  position: relative;
+  margin-bottom: 2.06rem;
+  bottom: 5.35rem;
+  transform: rotate(112.693deg);
   /* tablet view */
   @media (max-width: 1024px) {
     margin-left: 58rem;
-    margin-top: -5rem;
+    margin-top: -7rem;
+    top: 1.1rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
@@ -157,6 +167,7 @@
   /* tablet view */
   @media (max-width: 1024px) {
     gap: 3.95rem;
+    margin-top: 2rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
@@ -222,6 +233,7 @@
     font-weight: 400;
     line-height: 1.7rem; /* 130.769% */
     letter-spacing: 0.026rem;
+    margin-top: 2.3rem;
   }
 }
 .projects__startbtn {
@@ -262,7 +274,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-top: 3.2rem;
+    margin-top: 2.3rem;
   }
 }
 .projects__pickacho {
@@ -270,18 +282,22 @@
   width: 144rem;
   margin-top: 11.2rem;
   gap: 13.8rem;
+  justify-content: flex-end;
+  padding-right: 9.4rem;
   /* tablet view */
   @media (max-width: 1024px) {
     width: 83.6rem;
     margin-top: 4.3rem;
     gap: 5.4rem;
+    padding-right: 6.8rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
     flex-direction: column-reverse;
     width: 39rem;
     margin-top: 4.4rem;
-    gap: 1.6rem;
+    gap: unset;
+    padding-right: unset;
   }
 }
 .projects__pickachocontents {
@@ -301,23 +317,29 @@
   @media (max-width: 768px) {
     gap: 1.9rem;
     flex-direction: row-reverse;
-    margin-top: 1.6rem;
+    margin-top: 2.3rem;
+    justify-content: left;
   }
 }
 .projects__pickachoicon {
   width: 7.376rem;
   height: 6.423rem;
-  margin-left: 16rem;
+  /* margin-left: 16rem; */
   /* tablet view */
   @media (max-width: 1024px) {
     width: 4.3129rem;
     height: 3.8rem;
     margin-left: 5.6rem;
+    margin-top: 3.8rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
     width: 3.4rem;
     height: 2.9015rem;
+    margin-top: 0.5rem;
+    margin-right: 1.95rem;
+    margin-left: unset;
+    transform: rotateY(183deg);
   }
 }
 .projects__pickachoheaderimage {
@@ -325,11 +347,13 @@
   /* tablet view */
   @media (max-width: 1024px) {
     width: 25.3rem;
+    margin-top: 3.8rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
     width: 19rem;
     margin-left: 4.85rem;
+    margin-top: unset;
   }
 }
 .projects__pickachoabout {
@@ -343,7 +367,7 @@
   line-height: normal;
   letter-spacing: 0.036rem;
   margin-top: 6.58rem;
-  margin-left: 17.5rem;
+  margin-left: auto;
   /* tablet view */
   @media (max-width: 1024px) {
     width: 29.2rem;
@@ -356,7 +380,7 @@
     line-height: 1.7rem; /* 121.429% */
     letter-spacing: 0.028rem;
     margin-top: 3.2rem;
-    margin-left: 6.8rem;
+    margin-left: auto;
   }
   /* mobile view */
   @media (max-width: 768px) {
@@ -369,6 +393,8 @@
     line-height: 1.7rem; /* 130.769% */
     letter-spacing: 0.026rem;
     margin-left: 4.85rem;
+    margin-top: 1.9rem;
+    text-align: left;
   }
 }
 .projects__pickachobtn {
@@ -387,7 +413,7 @@
   align-items: center;
   gap: 0.8rem;
   margin-top: 6.2rem;
-  margin-left: 46.7rem;
+  margin-left: auto;
   /* tablet view */
   @media (max-width: 1024px) {
     color: #fff;
@@ -396,7 +422,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-left: 18.7rem;
+    margin-left: auto;
+    margin-top: 3.2rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
@@ -407,6 +434,7 @@
     font-weight: 500;
     line-height: normal;
     margin-left: 4.85rem;
+    margin-top: 1.6rem;
   }
 }
 .projects__pickachoimg {
@@ -441,6 +469,7 @@
     flex-direction: column;
     width: 39rem;
     margin-top: 4.4rem;
+    gap: unset;
   }
 }
 .projects__truckheaderimg {
@@ -455,6 +484,7 @@
     width: 35.4rem;
     height: 37.8rem;
     align-self: stretch;
+    margin-left: 6.7rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
@@ -465,7 +495,7 @@
 }
 .projects__truckheader {
   display: flex;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   /* tablet view */
   @media (max-width: 1024px) {
     margin-top: 0;
@@ -476,10 +506,10 @@
   }
 }
 .projects__truckimg {
-  width: 28.8rem;
+  width: 38.1rem;
   /* tablet view */
   @media (max-width: 1024px) {
-    /* … */
+    width: 27.7rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
@@ -488,18 +518,23 @@
   }
 }
 .projects__truckicon {
-  width: 7.9511rem;
-  height: 6.112rem;
+  position: relative;
+  width: 9.939rem;
+  height: 3.846rem;
+  right: 9.939rem;
+  top: 1.2rem;
+
   /* tablet view */
   @media (max-width: 1024px) {
     width: 5.8116rem;
     height: 2.2rem;
-    margin-top: 0.5rem;
-    margin-left: -7rem;
+    right: 5.8116rem;
+    top: 1rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
     width: 5.3rem;
+    right: 0rem;
     height: 1.8864rem;
     margin-left: -5rem;
   }
@@ -513,7 +548,7 @@
   line-height: normal;
   letter-spacing: 0.036rem;
   width: 42.7rem;
-  margin-top: 5.49rem;
+  margin-top: 3.2rem;
   /* tablet view */
   @media (max-width: 1024px) {
     width: 29.4rem;
@@ -541,7 +576,7 @@
   }
 }
 .projects__truckbtn {
-  margin-top: 5.2rem;
+  margin-top: 3.2rem;
   color: #fff;
   font-family: "Clash Display", sans-serif;
   font-size: 1.3rem;
@@ -584,6 +619,7 @@
   margin-top: 11.2rem;
   gap: 13.8rem;
   position: relative;
+  justify-content: center;
   /* tablet view */
   @media (max-width: 1024px) {
     width: 83.6rem;
@@ -594,6 +630,7 @@
   @media (max-width: 768px) {
     width: 39rem;
     flex-direction: column-reverse;
+    margin-top: unset;
   }
 }
 .projects__milicon {
@@ -611,14 +648,16 @@
   }
   /* mobile view */
   @media (max-width: 768px) {
-    left: 36rem;
-    top: 36rem;
+    left: 30rem;
+    top: 35rem;
   }
 }
 
 .projects__milheaderimage {
-  width: 34.8rem;
-  margin-left: 17.5rem;
+  width: 47.5rem;
+  margin-left: auto;
+  display: block;
+
   /* tablet view */
   @media (max-width: 1024px) {
     width: 32.6rem;
@@ -632,7 +671,7 @@
   }
   /* mobile view */
   @media (max-width: 768px) {
-    width: 32.6rem;
+    width: 24.6rem;
     margin-left: 3.15rem;
   }
 }
@@ -646,8 +685,8 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.036rem;
-  margin-top: 6.58rem;
-  margin-left: 17.5rem;
+  margin-top: 3.2rem;
+  margin-left: auto;
   /* tablet view */
   @media (max-width: 1024px) {
     width: 29.6rem;
@@ -674,6 +713,7 @@
     width: 29.6rem;
     margin-left: 3.15rem;
     text-align: left;
+    margin-top: 1.6rem;
   }
 }
 .projects__milabout2 {
@@ -687,7 +727,7 @@
   line-height: normal;
   letter-spacing: 0.036rem;
   margin-top: 3.58rem;
-  margin-left: 17.5rem;
+  margin-left: auto;
   /* tablet view */
   @media (max-width: 1024px) {
     width: 29.6rem;
@@ -714,6 +754,7 @@
     width: 29.6rem;
     margin-left: 3.15rem;
     text-align: left;
+    margin-top: 1.6rem;
   }
 }
 .projects__milbtn {
@@ -731,11 +772,11 @@
   justify-content: center;
   align-items: center;
   gap: 0.8rem;
-  margin-top: 6.2rem;
-  margin-left: 46.7rem;
+  margin-top: 3.2rem;
+  margin-left: auto;
   /* tablet view */
   @media (max-width: 1024px) {
-    margin-top: 4.2rem;
+    margin-top: 3.2rem;
     margin-left: 20.4rem;
     color: #fff;
     font-family: "Clash Display", sans-serif;
@@ -753,16 +794,17 @@
     font-weight: 500;
     line-height: normal;
     margin-left: 3.15rem;
+    margin-top: 1.6rem;
   }
 }
 .projects__milimg {
   width: 60.6rem;
   height: 46.8rem;
+
   /* tablet view */
   @media (max-width: 1024px) {
     height: 37.8rem;
     width: 35.4rem;
-    margin-top: 2rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
@@ -770,5 +812,27 @@
     height: 23rem;
     margin-left: 2.15rem;
     margin-top: 4.4rem;
+  }
+}
+
+.projects__line2 {
+  background: linear-gradient(
+    90deg,
+    #fff -0.79%,
+    rgba(255, 255, 255, 0) -0.79%,
+    #fff 49.6%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 4.4rem auto 0;
+  height: 0.1rem;
+  width: 85%;
+  display: none;
+  @media (max-width: 1024px) {
+    display: block;
+  }
+
+  /* mobile view */
+  @media (max-width: 768px) {
+    margin-top: 3.5rem;
   }
 }

@@ -10,6 +10,14 @@ html {
   background-color: #000000;
 }
 
+button {
+  border: none;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
 body {
   background: #151c24;
 }

@@ -11,39 +11,37 @@ function Footer() {
               <h3 className="footer__heading">MY SKILLS</h3>
             </div>
             <div className="footer__lists">
-              <l1 className="footer__list1">User-centered Design</l1>
-              <l1 className="footer__list">Prototyping</l1>
-              <l1 className="footer__list">UX Research</l1>
-              <l1 className="footer__list">Visual Communication</l1>
-              <l1 className="footer__list">Sketching & Ideating</l1>
-              <l1 className="footer__list">Problem Solving</l1>
+              <li className="footer__list1">User-centered Design</li>
+              <li className="footer__list">Prototyping</li>
+              <li className="footer__list">UX Research</li>
+              <li className="footer__list">Visual Communication</li>
+              <li className="footer__list">Sketching & Ideating</li>
+              <li className="footer__list">Problem Solving</li>
             </div>
           </div>
 
           <div className="footer__title">
             <div className="footer__main">
-              <span className="footer__line"></span>
               <h3 className="footer__heading">SOCIALs</h3>
             </div>
             <div className="footer__lists">
-              <l1 className="footer__list1">LinkedIn</l1>
-              <l1 className="footer__list">Behance</l1>
-              <l1 className="footer__list">Instagram</l1>
-              <l1 className="footer__list">Twitter X</l1>
+              <li className="footer__list1">LinkedIn</li>
+              <li className="footer__list">Behance</li>
+              <li className="footer__list">Instagram</li>
+              <li className="footer__list">Twitter X</li>
             </div>
           </div>
 
           <div className="footer__title">
             <div className="footer__main">
-              <span className="footer__line"></span>
               <h3 className="footer__heading">TOOLS I USE</h3>
             </div>
             <div className="footer__lists">
-              <l1 className="footer__list1">Figma</l1>
-              <l1 className="footer__list">Framer</l1>
-              <l1 className="footer__list">Notion</l1>
-              <l1 className="footer__list">Protopie</l1>
-              <l1 className="footer__list">Adobe Photoshop</l1>
+              <li className="footer__list1">Figma</li>
+              <li className="footer__list">Framer</li>
+              <li className="footer__list">Notion</li>
+              <li className="footer__list">Protopie</li>
+              <li className="footer__list">Adobe Photoshop</li>
             </div>
           </div>
         </div>

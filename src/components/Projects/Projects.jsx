@@ -140,6 +140,7 @@ function Projects() {
           />
         </div>
       </div>
+      <div className="projects__line2"></div>
     </main>
   );
 }

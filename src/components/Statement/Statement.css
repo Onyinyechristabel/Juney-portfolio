@@ -39,6 +39,7 @@
   @media (max-width: 768px) {
     width: 4.2rem;
     height: 3.4rem;
+    margin-top: 2.9rem;
   }
 }
 .statement__content {

@@ -19,14 +19,14 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-top: 17.65rem;
+  margin-top: 8rem;
   /* tablet view */
   @media (max-width: 1024px) {
-    margin-top: 10.35rem;
+    margin-top: 3rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
-    margin-top: 5.3rem;
+    margin-top: 3rem;
     margin-left: 2.2rem;
     color: #fff;
     font-family: "Clash Display", sans-serif;
@@ -39,18 +39,20 @@
 .work__table {
   display: flex;
   /* width: 39.6rem; */
-  margin-top: 3.5rem;
+  margin-top: 4.5rem;
   width: 144rem;
   gap: 3.2rem;
   /* tablet view */
   @media (max-width: 1024px) {
     flex-direction: column;
     width: 83.4rem;
+    margin-top: 3.4rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
     width: 39rem;
     flex-direction: column;
+    gap: 2.4rem;
   }
 }
 .work__product {
@@ -61,14 +63,12 @@
   box-shadow: 7px 3px 119px -64px #4f4f4f;
   /* tablet view */
   @media (max-width: 1024px) {
-    margin-top: 2.4rem;
     width: 70.9rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
     width: 34.7rem;
     margin-left: 2.2rem;
-    margin-top: 2.4rem;
   }
 }
 .work__header {
@@ -96,6 +96,7 @@
     #fff 49.6%,
     rgba(255, 255, 255, 0) 100%
   );
+  margin: 0 auto;
   /* tablet view */
   @media (max-width: 1024px) {
     height: 0.1rem;
@@ -112,7 +113,8 @@
   }
   /* mobile view */
   @media (max-width: 768px) {
-    margin-left: 2rem;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 .work__productimg {
@@ -126,6 +128,9 @@
   /* mobile view */
   @media (max-width: 768px) {
     margin-left: 2.2rem;
+    margin-top: 2.82rem;
+    width: 3.6rem;
+    height: 3.6rem;
   }
 }
 .work__heading {
@@ -143,6 +148,13 @@
   /* mobile view */
   @media (max-width: 768px) {
     /* … */
+    color: #fff;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 3.62rem;
+    padding-bottom: 2.05rem;
   }
 }
 .work__contentsp {
@@ -154,7 +166,7 @@
   line-height: normal;
   letter-spacing: 0.032rem;
   width: 31.5rem;
-  margin-top: 8.5rem;
+  margin-top: 4.8rem;
   margin-left: 4.5rem;
   margin-bottom: 8.55rem;
   /* tablet view */
@@ -169,6 +181,7 @@
     font-weight: 400;
     line-height: 1.6rem; /* 114.286% */
     letter-spacing: 0.028rem;
+    margin-bottom: 4.2rem;
   }
   /* mobile view */
   @media (max-width: 768px) {
@@ -178,8 +191,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.6rem; /* 114.286% */
-    width: 19.8rem;
+    width: 20.5rem;
     margin-left: 7.1rem;
+    margin-bottom: 4.03rem;
+    margin-top: 1.8rem;
     margin-bottom: 4.03rem;
   }
 }
