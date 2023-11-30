@@ -1,0 +1,133 @@
+.statement {
+  width: 144rem;
+
+  /* tablet view */
+  @media (max-width: 1024px) {
+    width: 83.6rem;
+  }
+  /* mobile view */
+  @media (max-width: 768px) {
+    width: 39rem;
+  }
+}
+/* .statement__line {
+  display: block;
+  width: 144rem;
+  height: 0.1rem;
+  display: inline-flex;
+  padding: 9.95rem 27.2rem 9.923rem 27.2rem;
+  justify-content: center;
+  align-items: center;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0);
+
+/* tablet view */
+
+.statement__img {
+  width: 8.5319rem;
+  height: 7.027rem;
+  margin: 0 auto;
+  margin-top: 9.95rem;
+  display: block;
+
+  /* tablet view */
+  @media (max-width: 1024px) {
+    width: 6.432rem;
+    height: 5.2975rem;
+    margin-top: 4.7rem;
+  }
+  /* mobile view */
+  @media (max-width: 768px) {
+    width: 4.2rem;
+    height: 3.4rem;
+  }
+}
+.statement__content {
+  width: 89.6rem;
+  color: #fff;
+  text-align: center;
+  font-family: "Clash Display", sans-serif;
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  padding-top: 6.8rem;
+  margin: 0 auto;
+  display: block;
+
+  /* tablet view */
+  @media (max-width: 1024px) {
+    width: 89.6rem;
+    color: #fff;
+    text-align: center;
+    font-family: "Clash Display", sans-serif;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 5.4rem;
+    padding-top: 0;
+  }
+  /* mobile view */
+  @media (max-width: 768px) {
+    width: 34.5rem;
+    color: #fff;
+    text-align: center;
+    font-family: "Clash Display", sans-serif;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 2.4rem;
+  }
+}
+.statement__span {
+  color: #03bfe8;
+
+  /* tablet view */
+  @media (max-width: 1024px) {
+    /* … */
+  }
+  /* mobile view */
+  @media (max-width: 768px) {
+    /* … */
+  }
+}
+.statement__btn {
+  color: #000;
+  font-family: "Clash Display", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  padding: 1.2rem 2.4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  background: #03bfe8;
+  margin: 0 auto;
+  margin-top: 3.2rem;
+  border: none;
+
+  /* tablet view */
+  @media (max-width: 1024px) {
+    color: #000;
+    font-family: "Clash Display", sans-serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 3.2rem;
+  }
+  /* mobile view */
+  @media (max-width: 768px) {
+    margin-top: 2.4rem;
+    color: #000;
+    font-family: "Clash Display", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
