@@ -1,5 +1,7 @@
 .statement {
   width: 144rem;
+  position: relative;
+  overflow: hidden;
 
   /* tablet view */
   @media (max-width: 1024px) {
@@ -130,5 +132,29 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+  }
+}
+.statement__grid {
+  position: absolute;
+  top: 0rem;
+  width: 144rem;
+  height: 64.709rem;
+  flex-shrink: 0;
+  /* tablet view */
+  @media (max-width: 1024px) {
+    display: flex;
+    width: 83.3rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  /* mobile view */
+  @media (max-width: 768px) {
+    display: flex;
+    width: 38.8rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
   }
 }

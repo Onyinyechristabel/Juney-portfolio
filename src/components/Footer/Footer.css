@@ -79,6 +79,12 @@
   /* mobile view */
   @media (max-width: 768px) {
     display: none;
+    &.open {
+      display: flex;
+      width: 33rem;
+      margin-top: -3rem;
+      margin-bottom: 2rem;
+    }
   }
 }
 .footer__main {
@@ -91,7 +97,7 @@
 
   /* mobile view */
   @media (max-width: 768px) {
-    /* … */
+    flex-direction: row;
   }
 }
 .footer__heading {
@@ -306,5 +312,20 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+  }
+}
+.dropdown {
+  display: none;
+  /* tablet view */
+  @media (max-width: 1024px) {
+    display: none;
+  }
+
+  /* mobile view */
+  @media (max-width: 768px) {
+    display: block;
+    width: 4rem;
+    position: relative;
+    right: 2.7rem;
   }
 }

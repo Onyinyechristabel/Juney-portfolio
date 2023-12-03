@@ -199,7 +199,7 @@
   font-weight: 400;
   line-height: normal;
   position: absolute;
-  top: 15rem;
+  top: 16rem;
   left: 83rem;
   transform: rotate(-27.843deg);
   /* tablet view */
@@ -223,8 +223,8 @@
   }
 }
 .hero__signsvg {
-  width: 13.4009rem;
-  height: 3.9246rem;
+  width: 15.4009rem;
+  height: 6.9246rem;
   color: #fff;
   position: absolute;
   top: 14rem;
