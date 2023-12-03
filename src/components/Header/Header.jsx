@@ -3,11 +3,19 @@ function Header() {
   return (
     <div className="header">
       <nav className="nav__header">
-        <img src="./images/header_icon.png" alt="" className="icon__header" />
+        <a href="/" className="icon__href">
+          <img src="./images/header_icon.png" alt="" className="icon__header" />
+        </a>
         <div className="nav__headings">
-          <h4 className="nav__about">ABOUT</h4>
-          <h4 className="nav__about">PROJECTS</h4>
-          <button className="nav__resume">— RESUME</button>
+          <a href="/about">
+            <h4 className="nav__about">ABOUT</h4>
+          </a>
+          <a href="#project__main">
+            <h4 className="nav__about">PROJECTS</h4>
+          </a>
+          <a href="resume.pdf">
+            <button className="nav__resume">— RESUME</button>
+          </a>
           <svg
             className="header__svg"
             xmlns="http://www.w3.org/2000/svg"

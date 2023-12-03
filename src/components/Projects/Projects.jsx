@@ -16,7 +16,7 @@ function Projects() {
     );
   }, []);
   return (
-    <main className="projects">
+    <main id="project__main" className="projects">
       <div className="projects__header">
         <h1 className="projects__heading">SELECTED PROJECTS</h1>
         <span className="projects__line"></span>
