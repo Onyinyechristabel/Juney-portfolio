@@ -1,7 +1,10 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
 import "./Projects.css";
+gsap.registerPlugin(ScrollTrigger);
+let timeline;
 function Projects() {
   useEffect(() => {
     gsap.fromTo(
@@ -14,12 +17,43 @@ function Projects() {
         duration: 5,
       }
     );
+    if (!timeline) {
+      timeline = gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: ".work",
+            start: "20% 10%",
+            end: "20%+=250rem 0%",
+            scrub: 10,
+          },
+        })
+        .fromTo(
+          ".projects__line",
+          {
+            scaleX: 0,
+          },
+          {
+            scaleX: 1,
+          }
+        );
+    }
+    // gsap.fromTo(
+    //   "#selectline",
+    //   { opacity: 0, x: 0 },
+
+    //   {
+    //     opacity: 1,
+    //     x: 90,
+    //     duration: 3,
+    //     scrollTrigger: "#selectline",
+    //   }
+    // );
   }, []);
   return (
     <main id="project__main" className="projects">
       <div className="projects__header">
         <h1 className="projects__heading">SELECTED PROJECTS</h1>
-        <span className="projects__line"></span>
+        <span id="selectline" className="projects__line"></span>
       </div>
       <h3 className="projects__contents">
         Over the past years, Ive worked with amazing teams to bring dreams to
@@ -87,15 +121,15 @@ function Projects() {
 
       <div className="projects__start">
         <div className="projects__startimage">
-          <img className="projects__img" src="./images/Startoimg.png" alt="" />
+          <img
+            id="start0art"
+            className="projects__img"
+            src="./images/Startoimg.png"
+            alt=""
+          />
         </div>
         <div className="projects__startcontents">
           <div className="projects__startheader">
-            {/* <img
-              src="./images/startO.png"
-              alt=""
-              className="projects__startimg"
-            /> */}
             <h1 className="projects__starto">start0</h1>
             <img
               src="./images/Startoicon.svg"
@@ -111,7 +145,9 @@ function Projects() {
             both parties and ushering in a new era of effective investment
             matchmaking.
           </h3>
-          <button className="projects__startbtn">— VIEW CASE STUDY</button>
+          <a href="https://www.google.com/search?q=how+to+cook+jollof&rlz=1C1KNTJ_enNG1084NG1084&oq=how+to+cook+jollof&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcxMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+            <button className="projects__startbtn">— VIEW CASE STUDY</button>
+          </a>
         </div>
       </div>
 
@@ -131,7 +167,9 @@ function Projects() {
             experienced by crypto wallet users on a global scale. It offers a
             secure, user-friendly, and feature-rich wallet for crypto users.
           </h3>
-          <button className="projects__pickachobtn">— VIEW CASE STUDY</button>
+          <a href="https://www.google.com/search?q=how+to+cook+jollof&rlz=1C1KNTJ_enNG1084NG1084&oq=how+to+cook+jollof&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcxMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+            <button className="projects__pickachobtn">— VIEW CASE STUDY</button>
+          </a>
         </div>
         <div className="projects__pickachoimage">
           <img
@@ -168,7 +206,9 @@ function Projects() {
             experience that encourages clients to manage their freight logistics
             with precision and ease.
           </h3>
-          <button className="projects__truckbtn">— VIEW WEBSITE</button>
+          <a href="https://www.google.com/search?q=how+to+cook+jollof&rlz=1C1KNTJ_enNG1084NG1084&oq=how+to+cook+jollof&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcxMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+            <button className="projects__truckbtn">— VIEW WEBSITE</button>
+          </a>
         </div>
       </div>
 
@@ -191,7 +231,9 @@ function Projects() {
             totally loved the redesign. Currently I’m working with their dev
             team to implement the new design.
           </h3>
-          <button className="projects__milbtn">— VIEW CASE STUDY</button>
+          <a href="https://www.google.com/search?q=how+to+cook+jollof&rlz=1C1KNTJ_enNG1084NG1084&oq=how+to+cook+jollof&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcxMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+            <button className="projects__milbtn">— VIEW CASE STUDY</button>
+          </a>
         </div>
         <div className="projects__milimage">
           <img

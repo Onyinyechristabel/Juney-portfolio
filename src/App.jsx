@@ -1,4 +1,5 @@
 import "./App.css";
+import Menu from "./components/Menu/Menu";
 import Header from "./components/Header/Header";
 import Hero from "./components/Header/Hero/Hero";
 import Work from "./components/Work/Work";
@@ -10,6 +11,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Menu />
       <Hero />
       <Work />
       <Projects />

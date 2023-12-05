@@ -1,0 +1,77 @@
+.menu {
+  width: 39rem;
+  display: none;
+  /* tablet view */
+  @media (max-width: 1024px) {
+    display: none;
+  }
+
+  /* mobile view */
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+.menu__header {
+  display: flex;
+  justify-content: space-between;
+  width: 39rem;
+  padding: 1.8rem 1rem 1.4rem 1rem;
+}
+.menu__icon {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1.8rem;
+  margin-top: 1rem;
+}
+.menuclose {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 0.4rem;
+  margin-top: 1rem;
+}
+.menudrop {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 0rem;
+}
+.menu__about {
+  color: #fff;
+  font-family: "Clash Display", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  margin-top: 2.6rem;
+}
+.menu__projects {
+  color: #fff;
+  font-family: "Clash Display", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  margin-top: 2.9rem;
+}
+.menu__btn {
+  display: flex;
+  padding: 1.2rem 11.4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #fff;
+  background: #03bfe8;
+  color: #000;
+  font-family: "Clash Display", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 auto;
+  margin-top: 1.9rem;
+}

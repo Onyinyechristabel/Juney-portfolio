@@ -33,7 +33,13 @@
     display: block;
     width: 3.2rem;
     height: 3.2rem;
+    position: relative;
   }
+}
+.header__svg path {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .nav__header {
@@ -121,4 +127,17 @@
   @media (max-width: 768px) {
     /* … */
   }
+}
+#design {
+  display: inline-block;
+}
+#tomorrow {
+  display: inline-block;
+}
+
+#experience {
+  display: inline-block;
+}
+.hide {
+  display: none;
 }

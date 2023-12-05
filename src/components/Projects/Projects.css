@@ -61,6 +61,7 @@
   height: 0.2rem;
   background: #fff;
   margin-top: 2rem;
+  transform-origin: 0%;
   /* tablet view */
   @media (max-width: 1024px) {
     width: 35.2rem;
@@ -146,6 +147,7 @@
   border: 1px solid #747474;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
   margin-left: 9.8rem;
+  transition: 1s;
   /* tablet view */
   @media (max-width: 1024px) {
     width: 35.4rem;
@@ -159,6 +161,9 @@
     margin-left: 2.15rem;
     margin-top: 4.4rem;
   }
+}
+.projects__img:hover {
+  transform: scale(1.1);
 }
 .projects__startheader {
   display: flex;
@@ -181,12 +186,14 @@
   @media (max-width: 1024px) {
     width: 20.9rem;
   }
+
   /* mobile view */
   @media (max-width: 768px) {
     width: 15.7rem;
     margin-left: 4.75rem;
   }
 }
+
 .projects__starticon {
   width: 7.9511rem;
   height: 6.112rem;
@@ -454,6 +461,7 @@
 .projects__pickachoimg {
   width: 60.6rem;
   height: 46.8rem;
+  transition: 1s;
   /* tablet view */
   @media (max-width: 1024px) {
     width: 35.4rem;
@@ -466,7 +474,9 @@
     margin-left: 2.15rem;
   }
 }
-
+.projects__pickachoimg:hover {
+  transform: scale(1.1);
+}
 .projects__truck {
   display: flex;
   gap: 13.8rem;
@@ -493,6 +503,7 @@
   border: 1px solid #747474;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
   margin-left: 9.8rem;
+  transition: 1s;
   /* tablet view */
   @media (max-width: 1024px) {
     width: 35.4rem;
@@ -506,6 +517,9 @@
     height: 23rem;
     margin-left: 2.15rem;
   }
+}
+.projects__truckheaderimg:hover {
+  transform: scale(1.1);
 }
 .projects__truckheader {
   display: flex;
@@ -694,6 +708,7 @@
     margin-left: 3.15rem;
   }
 }
+
 .projects__milabout {
   width: 42.7rem;
   color: #fff;
@@ -823,6 +838,7 @@
 .projects__milimg {
   width: 60.6rem;
   height: 46.8rem;
+  transition: 1s;
 
   /* tablet view */
   @media (max-width: 1024px) {
@@ -837,7 +853,9 @@
     margin-top: 4.4rem;
   }
 }
-
+.projects__milimg:hover {
+  transform: scale(1.1);
+}
 .projects__line2 {
   background: linear-gradient(
     90deg,

@@ -3,7 +3,10 @@ function Footer() {
   return (
     <div className="main">
       <div className="footer">
-        <img src="./images/header_icon.png" alt="" className="footer__icon" />
+        <a href="/">
+          {" "}
+          <img src="./images/header_icon.png" alt="" className="footer__icon" />
+        </a>
 
         <div className="footer__content">
           <div className="footer__title">
@@ -45,10 +48,22 @@ function Footer() {
               />
             </div>
             <div className="footer__lists" id="dropdown__listsocial">
-              <li className="footer__list1">LinkedIn</li>
-              <li className="footer__list">Behance</li>
-              <li className="footer__list">Instagram</li>
-              <li className="footer__list">Twitter X</li>
+              <a href="https://www.dictionary.com/browse/church">
+                {" "}
+                <li className="footer__list1">LinkedIn</li>
+              </a>
+              <a href="https://www.dictionary.com/browse/church">
+                {" "}
+                <li className="footer__list">Behance</li>
+              </a>
+              <a href="https://www.dictionary.com/browse/church">
+                {" "}
+                <li className="footer__list">Instagram</li>
+              </a>
+              <a href="https://www.dictionary.com/browse/church">
+                {" "}
+                <li className="footer__list">Twitter X</li>
+              </a>
             </div>
           </div>
 
@@ -79,7 +94,10 @@ function Footer() {
       <span className="footer__line"></span>
       <div className="footer__footer">
         <h4 className="footer__foot">© 2023. JUNEY. DESIGNED BY ME.</h4>
-        <button className="footer__footbtn">— RESUME</button>
+        <a href="resume.pdf">
+          {" "}
+          <button className="footer__footbtn">— RESUME</button>
+        </a>
       </div>
     </div>
   );

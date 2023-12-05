@@ -1,15 +1,86 @@
+import { useEffect } from "react";
+import { gsap } from "gsap";
 import "./Hero.css";
 
 function Hero() {
+  useEffect(() => {
+    gsap.fromTo(
+      "#design span",
+      { y: 100, stagger: { each: 0.03 } },
+      { y: 0, stagger: { each: 0.03 } }
+    );
+    gsap.fromTo(
+      "#tomorrow span",
+      { y: 100, stagger: { each: 0.03 } },
+      { y: 0, stagger: { each: 0.03 }, delay: 0.3 }
+    );
+    gsap.fromTo(
+      "#experience span",
+      { y: 100, stagger: { each: 0.03 } },
+      { y: 0, stagger: { each: 0.03 }, delay: 0.6 }
+    );
+    gsap.fromTo(
+      "#turns",
+      { opacity: 0 },
+      { opacity: 1, duration: 0.75, delay: 1.1 }
+    );
+    gsap.fromTo(
+      "#signature",
+      { opacity: 0 },
+      { opacity: 1, duration: 0.75, delay: 1.15 }
+    );
+    gsap.fromTo(
+      "#contact",
+      { opacity: 0 },
+      { opacity: 1, duration: 0.75, delay: 1.2 }
+    );
+  }, []);
   return (
     <div className="hero">
       <main className="hero__content">
         <div className="hero__contents">
-          <h1 className="hero__heading">DESIGNING TOMORROW’S EXPERIENCES.</h1>
-          <p className="hero__paragraph">
+          <h1 className="hero__heading">
+            <span id="design">
+              <span>D</span>
+              <span>E</span>
+              <span>S</span>
+              <span>I</span>
+              <span>G</span>
+              <span>N</span>
+              <span>I</span>
+              <span>N</span>
+              <span>G</span>
+            </span>
+            <span id="tomorrow">
+              <span>T</span>
+              <span>O</span>
+              <span>M</span>
+              <span>O</span>
+              <span>R</span>
+              <span>R</span>
+              <span>O</span>
+              <span>W</span>
+              <span>’S</span>
+            </span>{" "}
+            <span id="experience">
+              <span>E</span>
+              <span>X</span>
+              <span>P</span>
+              <span>E</span>
+              <span>R</span>
+              <span>I</span>
+              <span>E</span>
+              <span>N</span>
+              <span>C</span>
+              <span>E</span>
+              <span>S.</span>
+            </span>
+          </h1>
+          <p id="turns" className="hero__paragraph">
             Turning Complex Challenges into Seamless Solutions.
           </p>
           <svg
+            id="signature"
             className="hero__signature"
             xmlns="http://www.w3.org/2000/svg"
             width="465"
@@ -24,7 +95,11 @@ function Hero() {
               fill="#777777"
             />
           </svg>
-          <button className="hero__btn"> — CONTACT ME</button>
+          <a href="mailto:obiagboso2003@gmail.com">
+            <button id="contact" className="hero__btn">
+              — CONTACT ME
+            </button>
+          </a>
         </div>
 
         <div className="hero__image">
