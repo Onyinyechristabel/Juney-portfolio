@@ -7,7 +7,7 @@
     margin-top: 5.25rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 39rem;
     margin-top: 5.1rem;
   }
@@ -20,7 +20,7 @@
     /* … */
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     align-items: center;
   }
 }
@@ -44,7 +44,7 @@
     margin-left: 6.3rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     color: #fff;
     font-family: "Clash Display", sans-serif;
     font-size: 2rem;
@@ -68,7 +68,7 @@
     margin-top: 1.2rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     background: #fff;
     width: 10.5rem;
     margin: unset;
@@ -98,7 +98,7 @@
     margin-left: 6.3rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 23rem;
     margin-left: 2.05rem;
     margin-top: 1.6rem;
@@ -120,7 +120,7 @@
     top: 1.1rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     display: none;
   }
 }
@@ -134,7 +134,7 @@
     gap: 5.4rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     flex-direction: column;
     width: 39rem;
     gap: 1.6rem;
@@ -155,7 +155,7 @@
     margin-left: 6.7rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 34.6rem;
     height: 23rem;
     margin-left: 2.15rem;
@@ -176,7 +176,7 @@
     margin-top: 0;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     gap: 2.25rem;
   }
 }
@@ -188,7 +188,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 15.7rem;
     margin-left: 4.75rem;
   }
@@ -203,7 +203,7 @@
     height: 4.2rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 3.8rem;
     height: 3.2129rem;
     margin-top: -0.5rem;
@@ -232,7 +232,7 @@
     margin-top: 3.2rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 29.4rem;
     margin-left: 4.75rem;
     color: #fff;
@@ -277,7 +277,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     margin-left: 4.75rem;
     color: #fff;
     font-family: "Clash Display", sans-serif;
@@ -308,7 +308,7 @@
     padding-right: 6.8rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     flex-direction: column-reverse;
     width: 39rem;
     margin-top: 4.4rem;
@@ -317,7 +317,7 @@
   }
 }
 .projects__pickachocontents {
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 39rem;
   }
 }
@@ -330,7 +330,7 @@
     gap: 0.79rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     gap: 1.9rem;
     flex-direction: row-reverse;
     margin-top: 2.3rem;
@@ -349,7 +349,7 @@
     margin-top: 3rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 3.4rem;
     height: 2.9015rem;
     margin-top: 0.5rem;
@@ -367,7 +367,7 @@
     margin-top: 3.8rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 19rem;
     margin-left: 4.85rem;
     margin-top: unset;
@@ -400,7 +400,7 @@
     margin-left: auto;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 29.2rem;
     color: #fff;
     font-family: "Manjari", sans-serif;
@@ -443,7 +443,7 @@
     margin-top: 3.2rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     color: #fff;
     font-family: "Clash Display", sans-serif;
     font-size: 1rem;
@@ -468,7 +468,7 @@
     height: 31.4rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 34.6rem;
     height: 23rem;
     margin-left: 2.15rem;
@@ -489,7 +489,7 @@
     gap: 5.4rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     flex-direction: column;
     width: 39rem;
     margin-top: 4.4rem;
@@ -512,7 +512,7 @@
     margin-left: 6.7rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 34.6rem;
     height: 23rem;
     margin-left: 2.15rem;
@@ -529,7 +529,7 @@
     margin-top: 0;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     margin-top: 1.6rem;
   }
 }
@@ -540,7 +540,7 @@
     width: 27.7rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 20.8rem;
     margin-left: 4.85rem;
   }
@@ -560,7 +560,7 @@
     top: 1rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 5.3rem;
     right: 8rem;
     height: 1.8864rem;
@@ -590,7 +590,7 @@
     margin-top: 3.2rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     margin-top: 1.6rem;
     width: 29.4rem;
     color: #fff;
@@ -629,7 +629,7 @@
     line-height: normal;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     color: #fff;
     font-family: "Clash Display", sans-serif;
     font-size: 1rem;
@@ -660,7 +660,7 @@
     gap: 5.4rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 39rem;
     flex-direction: column-reverse;
     margin-top: unset;
@@ -680,7 +680,7 @@
     left: 8.6rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     left: 30rem;
     top: 35rem;
   }
@@ -703,7 +703,7 @@
     line-height: 5.4rem; /* 84.375% */
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 24.6rem;
     margin-left: 3.15rem;
   }
@@ -736,7 +736,7 @@
     margin-top: 3.2rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     color: #fff;
     font-family: "Manjari", sans-serif;
     font-size: 1.3rem;
@@ -777,7 +777,7 @@
     margin-top: 2rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     color: #fff;
     font-family: "Manjari", sans-serif;
     font-size: 1.3rem;
@@ -820,7 +820,7 @@
     line-height: normal;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     color: #fff;
     font-family: "Clash Display", sans-serif;
     font-size: 1rem;
@@ -846,7 +846,7 @@
     width: 35.4rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 34.6rem;
     height: 23rem;
     margin-left: 2.15rem;
@@ -873,7 +873,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     margin-top: 3.5rem;
   }
 }
@@ -897,7 +897,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     text-align: right;
     font-family: Clash Display;
     font-size: 4.8rem;
@@ -933,7 +933,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 32.6rem;
     font-family: Clash Display;
     font-size: 4.8rem;
@@ -961,7 +961,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     text-align: right;
     font-family: Clash Display;
     font-size: 4.8rem;
@@ -990,7 +990,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     margin-left: 4.75rem;
     font-family: Clash Display;
     font-size: 4.8rem;

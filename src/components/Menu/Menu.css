@@ -7,7 +7,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     display: block;
   }
 }
@@ -74,4 +74,5 @@
   line-height: normal;
   margin: 0 auto;
   margin-top: 1.9rem;
+  border: none;
 }

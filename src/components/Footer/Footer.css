@@ -10,7 +10,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 39rem;
     display: block;
   }
@@ -30,7 +30,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 3.2rem;
     height: 3.2rem;
     margin-left: 2.2rem;
@@ -48,7 +48,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     display: block;
     margin-left: 2.2rem;
   }
@@ -62,7 +62,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     display: block;
   }
 }
@@ -77,7 +77,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     display: none;
     &.open {
       display: flex;
@@ -96,7 +96,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     flex-direction: row;
   }
 }
@@ -129,7 +129,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     color: #fff;
     font-family: "Clash Display", sans-serif;
     font-size: 1.4rem;
@@ -164,7 +164,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     /* … */
   }
 }
@@ -189,7 +189,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
   }
 }
 
@@ -207,7 +207,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     width: 39rem;
     gap: 8.8rem;
     border-top: none;
@@ -230,7 +230,7 @@
     margin-top: 4.3rem;
   }
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     display: none;
   }
 }
@@ -256,7 +256,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     color: #fff;
     font-family: "Clash Display", sans-serif;
     font-size: 1rem;
@@ -300,7 +300,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     color: #000;
     font-family: "Clash Display", sans-serif;
     font-size: 1rem;
@@ -322,7 +322,7 @@
   }
 
   /* mobile view */
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     display: block;
     width: 4rem;
     position: relative;
