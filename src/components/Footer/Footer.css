@@ -326,6 +326,9 @@
     display: block;
     width: 4rem;
     position: relative;
-    right: 2.7rem;
+    right: 4.7rem;
   }
+}
+.dropup {
+  transform: rotateX(180deg);
 }

@@ -28,7 +28,10 @@ function Header() {
             <h4 className="nav__about">PROJECTS</h4>
           </a>
           <a href="resume.pdf">
-            <button className="nav__resume">— RESUME</button>
+            <button className="nav__resume">
+              {" "}
+              <span className="dash">— </span>RESUME
+            </button>
           </a>
           <svg
             onClick={() => (open ? deactivate() : activate())}

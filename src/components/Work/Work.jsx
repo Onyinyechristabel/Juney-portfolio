@@ -1,11 +1,36 @@
 import "./Work.css";
+import { useEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/all";
+gsap.registerPlugin(ScrollTrigger);
+let mm = gsap.matchMedia();
+let timeline;
 
 function Work() {
+  useEffect(() => {
+    mm.add("(max-width:425px)", () => {
+      if (!timeline) {
+        timeline = gsap
+          .timeline({
+            scrollTrigger: {
+              trigger: ".work",
+              start: "top 10%",
+              end: "bottom 40%",
+              pin: true,
+              scrub: true,
+            },
+          })
+          .to("#ux", { yPercent: -100, ease: "linear" })
+          .to("#nocode", { yPercent: -107, ease: "linear" }, "<")
+          .to("#nocode", { yPercent: -215, ease: "linear" });
+      }
+    });
+  }, []);
   return (
     <div className="work">
       <h2 className="work__intro"> — WHAT I DO</h2>
       <main className="work__table">
-        <div className="work__product">
+        <div id="product" className="work__product">
           <div className="work__header">
             <img
               src="./images/product.svg"
@@ -24,7 +49,7 @@ function Work() {
           </div>
         </div>
 
-        <div className="work__product">
+        <div id="ux" className="work__product">
           <div className="work__header">
             <img src="./images/ux.svg" alt="" className="work__productimg" />
             <h2 className="work__heading">UX Audit</h2>
@@ -40,7 +65,7 @@ function Work() {
           </div>
         </div>
 
-        <div className="work__product">
+        <div id="nocode" className="work__product">
           <div className="work__header">
             <img src="./images/code.svg" alt="" className="work__productimg" />
             <h2 className="work__heading">No-code Development</h2>

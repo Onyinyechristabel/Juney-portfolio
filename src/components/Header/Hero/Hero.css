@@ -45,6 +45,7 @@
   line-height: normal;
   margin-top: 9.65rem;
   width: 60rem;
+  display: grid;
   /* tablet view */
   @media (max-width: 1024px) {
     color: #fff;

@@ -5,6 +5,7 @@ import { ScrollTrigger } from "gsap/all";
 import "./Projects.css";
 gsap.registerPlugin(ScrollTrigger);
 let timeline;
+
 function Projects() {
   useEffect(() => {
     gsap.fromTo(
@@ -24,7 +25,7 @@ function Projects() {
             trigger: ".work",
             start: "20% 10%",
             end: "20%+=250rem 0%",
-            scrub: 10,
+            scrub: 13,
           },
         })
         .fromTo(

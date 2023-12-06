@@ -13,10 +13,11 @@ function Footer() {
             <div className="footer__main">
               <h3 className="footer__heading">MY SKILLS</h3>
               <img
-                onClick={() => {
+                onClick={(e) => {
                   document
                     .querySelector("#dropdown__list")
                     .classList.toggle("open");
+                  e.target.classList.toggle("dropup");
                 }}
                 src="./images/dropdown-1.svg"
                 alt=""
@@ -37,10 +38,11 @@ function Footer() {
             <div className="footer__main">
               <h3 className="footer__heading">SOCIALs</h3>
               <img
-                onClick={() => {
+                onClick={(e) => {
                   document
                     .querySelector("#dropdown__listsocial")
                     .classList.toggle("open");
+                  e.target.classList.toggle("dropup");
                 }}
                 src="./images/dropdown-1.svg"
                 alt=""
@@ -71,10 +73,11 @@ function Footer() {
             <div className="footer__main">
               <h3 className="footer__heading">TOOLS I USE</h3>
               <img
-                onClick={() => {
+                onClick={(e) => {
                   document
                     .querySelector("#dropdown__listtool")
                     .classList.toggle("open");
+                  e.target.classList.toggle("dropup");
                 }}
                 src="./images/dropdown-1.svg"
                 alt=""
