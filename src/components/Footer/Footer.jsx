@@ -5,24 +5,26 @@ function Footer() {
       <div className="footer">
         <a href="/">
           {" "}
-          <img src="./images/header_icon.png" alt="" className="footer__icon" />
+          <img
+            src="./images/footer__blue.png"
+            alt=""
+            className="footer__icon"
+          />
         </a>
 
         <div className="footer__content">
           <div className="footer__title">
             <div className="footer__main">
-              <h3 className="footer__heading">MY SKILLS</h3>
-              <img
-                onClick={(e) => {
+              <h3
+                onClick={() => {
                   document
                     .querySelector("#dropdown__list")
                     .classList.toggle("open");
-                  e.target.classList.toggle("dropup");
                 }}
-                src="./images/dropdown-1.svg"
-                alt=""
-                className="dropdown"
-              />
+                className="footer__heading"
+              >
+                MY SKILLS
+              </h3>
             </div>
             <div className="footer__lists" id="dropdown__list">
               <li className="footer__list1">User-centered Design</li>
@@ -36,18 +38,16 @@ function Footer() {
 
           <div className="footer__title">
             <div className="footer__main">
-              <h3 className="footer__heading">SOCIALs</h3>
-              <img
-                onClick={(e) => {
+              <h3
+                onClick={() => {
                   document
                     .querySelector("#dropdown__listsocial")
                     .classList.toggle("open");
-                  e.target.classList.toggle("dropup");
                 }}
-                src="./images/dropdown-1.svg"
-                alt=""
-                className="dropdown"
-              />
+                className="footer__heading"
+              >
+                SOCIALs
+              </h3>
             </div>
             <div className="footer__lists" id="dropdown__listsocial">
               <a href="https://www.dictionary.com/browse/church">
@@ -71,18 +71,16 @@ function Footer() {
 
           <div className="footer__title">
             <div className="footer__main">
-              <h3 className="footer__heading">TOOLS I USE</h3>
-              <img
-                onClick={(e) => {
+              <h3
+                onClick={() => {
                   document
                     .querySelector("#dropdown__listtool")
                     .classList.toggle("open");
-                  e.target.classList.toggle("dropup");
                 }}
-                src="./images/dropdown-1.svg"
-                alt=""
-                className="dropdown"
-              />
+                className="footer__heading"
+              >
+                TOOLS I USE
+              </h3>
             </div>
             <div className="footer__lists" id="dropdown__listtool">
               <li className="footer__list1">Figma</li>
@@ -98,8 +96,9 @@ function Footer() {
       <div className="footer__footer">
         <h4 className="footer__foot">© 2023. JUNEY. DESIGNED BY ME.</h4>
         <a href="resume.pdf">
-          {" "}
-          <button className="footer__footbtn">— RESUME</button>
+          <button className="footer__footbtn">
+            <span>—</span> RESUME
+          </button>
         </a>
       </div>
     </div>

@@ -99,7 +99,7 @@
   margin: 0 auto;
   /* tablet view */
   @media (max-width: 1024px) {
-    height: 0.1rem;
+    height: 0.05rem;
     align-self: stretch;
     width: 57.1rem;
     margin-left: 7rem;
@@ -164,7 +164,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  letter-spacing: 0.032rem;
+  letter-spacing: 0.01rem;
   width: 31.5rem;
   margin-top: 4.8rem;
   margin-left: 4.5rem;

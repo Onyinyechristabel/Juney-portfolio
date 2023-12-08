@@ -104,7 +104,7 @@
   font-weight: 500;
   line-height: normal;
   display: flex;
-  padding: 1.2rem 2.4rem;
+  padding: 1rem 2.4rem;
   justify-content: center;
   align-items: center;
   gap: 1.6rem;
@@ -140,6 +140,7 @@
   width: 144rem;
   height: 64.709rem;
   flex-shrink: 0;
+  pointer-events: none;
   /* tablet view */
   @media (max-width: 1024px) {
     display: flex;

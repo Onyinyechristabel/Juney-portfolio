@@ -13,10 +13,6 @@ html {
   background-color: #000000;
 }
 
-button {
-  border: none;
-}
-
 ::-webkit-scrollbar {
   display: none !important;
 }
@@ -37,4 +33,33 @@ body {
   }
   /* font-family: 'Freehand', cursive; */
   /* font-family: 'Manjari', sans-serif; */
+}
+
+.desktop {
+  @media (max-width: 1024px) {
+    display: none !important;
+  }
+  @media (max-width: 425px) {
+    display: none !important;
+  }
+}
+
+.tablet {
+  display: none !important;
+  @media (max-width: 1024px) {
+    display: block !important;
+  }
+  @media (max-width: 425px) {
+    display: none !important;
+  }
+}
+
+.phone {
+  display: none !important;
+  @media (max-width: 1024px) {
+    display: none !important;
+  }
+  @media (max-width: 425px) {
+    display: block !important;
+  }
 }

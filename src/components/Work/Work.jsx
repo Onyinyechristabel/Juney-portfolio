@@ -14,7 +14,7 @@ function Work() {
           .timeline({
             scrollTrigger: {
               trigger: ".work",
-              start: "top 10%",
+              start: "top+=75rem 0%",
               end: "bottom 40%",
               pin: true,
               scrub: true,
@@ -28,7 +28,9 @@ function Work() {
   }, []);
   return (
     <div className="work">
-      <h2 className="work__intro"> — WHAT I DO</h2>
+      <h2 className="work__intro">
+        <span>—</span> WHAT I DO
+      </h2>
       <main className="work__table">
         <div id="product" className="work__product">
           <div className="work__header">

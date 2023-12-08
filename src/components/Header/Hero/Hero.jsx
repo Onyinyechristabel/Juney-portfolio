@@ -97,13 +97,13 @@ function Hero() {
           </svg>
           <a href="mailto:obiagboso2003@gmail.com">
             <button id="contact" className="hero__btn">
-              — CONTACT ME
+              <span>—</span> <span>CONTACT ME</span>
             </button>
           </a>
         </div>
 
         <div className="hero__image">
-          <img src="./images/june.png" alt="" className="hero__juney" />
+          <img src="./images/JJ.jpg" alt="" className="hero__juney" />
         </div>
       </main>
       <svg

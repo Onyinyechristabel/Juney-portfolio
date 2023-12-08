@@ -18,7 +18,7 @@ function Header() {
     <div className="header">
       <nav className="nav__header">
         <a href="/" className="icon__href">
-          <img src="./images/header_icon.png" alt="" className="icon__header" />
+          <img src="./images/whiteicon.png" alt="" className="icon__header" />
         </a>
         <div className="nav__headings">
           <a href="/about">
@@ -53,10 +53,16 @@ function Header() {
                 style={{ translate: "0.4rem 0.9rem" }}
               />
             ) : (
-              <path
-                d="M5.33325 23.0265V21.6931H26.6666V23.0265H5.33325ZM5.33325 16.6665V15.3331H26.6666V16.6665H5.33325ZM5.33325 10.3065V8.97314H26.6666V10.3065H5.33325Z"
-                fill="white"
-              />
+              <>
+                <path
+                  d="M5.33325 23.0265V21.6931H26.6666V23.0265H5.33325ZM5.33325 16.6665V15.3331H26.6666V16.6665H5.33325ZM5.33325 10.3065V8.97314H26.6666V10.3065H5.33325Z"
+                  fill="white"
+                />
+                <path
+                  d="M5.33325 23.0265V21.6931H26.6666V23.0265H5.33325ZM5.33325 16.6665V15.3331H26.6666V16.6665H5.33325ZM5.33325 10.3065V8.97314H26.6666V10.3065H5.33325Z"
+                  fill="white"
+                />
+              </>
             )}
           </svg>
         </div>

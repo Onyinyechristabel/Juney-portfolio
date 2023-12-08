@@ -15,7 +15,7 @@ function Projects() {
         rotate: 360,
         repeat: -1,
         ease: "linear",
-        duration: 5,
+        duration: 12,
       }
     );
     if (!timeline) {
@@ -147,7 +147,9 @@ function Projects() {
             matchmaking.
           </h3>
           <a href="https://www.google.com/search?q=how+to+cook+jollof&rlz=1C1KNTJ_enNG1084NG1084&oq=how+to+cook+jollof&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcxMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
-            <button className="projects__startbtn">— VIEW CASE STUDY</button>
+            <button className="projects__startbtn">
+              <span>—</span> VIEW CASE STUDY
+            </button>
           </a>
         </div>
       </div>
@@ -169,7 +171,9 @@ function Projects() {
             secure, user-friendly, and feature-rich wallet for crypto users.
           </h3>
           <a href="https://www.google.com/search?q=how+to+cook+jollof&rlz=1C1KNTJ_enNG1084NG1084&oq=how+to+cook+jollof&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcxMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
-            <button className="projects__pickachobtn">— VIEW CASE STUDY</button>
+            <button className="projects__pickachobtn">
+              <span>—</span> VIEW CASE STUDY
+            </button>
           </a>
         </div>
         <div className="projects__pickachoimage">
@@ -208,7 +212,9 @@ function Projects() {
             with precision and ease.
           </h3>
           <a href="https://www.google.com/search?q=how+to+cook+jollof&rlz=1C1KNTJ_enNG1084NG1084&oq=how+to+cook+jollof&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcxMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
-            <button className="projects__truckbtn">— VIEW WEBSITE</button>
+            <button className="projects__truckbtn">
+              <span>—</span> VIEW WEBSITE
+            </button>
           </a>
         </div>
       </div>
@@ -233,7 +239,9 @@ function Projects() {
             team to implement the new design.
           </h3>
           <a href="https://www.google.com/search?q=how+to+cook+jollof&rlz=1C1KNTJ_enNG1084NG1084&oq=how+to+cook+jollof&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcxMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
-            <button className="projects__milbtn">— VIEW CASE STUDY</button>
+            <button className="projects__milbtn">
+              <span>—</span> VIEW CASE STUDY
+            </button>
           </a>
         </div>
         <div className="projects__milimage">
