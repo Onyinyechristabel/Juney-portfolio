@@ -50,19 +50,19 @@ function Footer() {
               </h3>
             </div>
             <div className="footer__lists" id="dropdown__listsocial">
-              <a href="https://www.dictionary.com/browse/church">
+              <a href="https://www.linkedin.com/in/jachimike-jones">
                 {" "}
                 <li className="footer__list1">LinkedIn</li>
               </a>
-              <a href="https://www.dictionary.com/browse/church">
+              <a href="https://www.behance.net/jachimikeoguadinma">
                 {" "}
                 <li className="footer__list">Behance</li>
               </a>
-              <a href="https://www.dictionary.com/browse/church">
+              <a href="hInstagram.com/juney.design">
                 {" "}
                 <li className="footer__list">Instagram</li>
               </a>
-              <a href="https://www.dictionary.com/browse/church">
+              <a href="https://x.com/juney_design">
                 {" "}
                 <li className="footer__list">Twitter X</li>
               </a>

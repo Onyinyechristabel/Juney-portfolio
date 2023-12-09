@@ -95,7 +95,7 @@ function Hero() {
               fill="#777777"
             />
           </svg>
-          <a href="mailto:obiagboso2003@gmail.com">
+          <a href="mailto:Oguadinmajachimike@gmail.com?subject=Let%E2%80%99s%20create%20something%20amazing%20together!&body=Hi%2C%20I%E2%80%99m%20%E2%80%A6">
             <button id="contact" className="hero__btn">
               <span>—</span> <span>CONTACT ME</span>
             </button>
@@ -103,7 +103,7 @@ function Hero() {
         </div>
 
         <div className="hero__image">
-          <img src="./images/JJ.jpg" alt="" className="hero__juney" />
+          <img src="./images/Juny.png" alt="" className="hero__juney" />
         </div>
       </main>
       <svg

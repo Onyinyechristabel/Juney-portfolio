@@ -4,7 +4,10 @@ function Menu() {
     <div className="menu">
       <div className="menudrop">
         <h3 className="menu__about">ABOUT</h3>
-        <h3 className="menu__projects">PROJECTS</h3>
+        <a href="#project__main">
+          {" "}
+          <h3 className="menu__projects">PROJECTS</h3>
+        </a>
         <button className="menu__btn">
           <span> —</span> <span> RESUME</span>
         </button>

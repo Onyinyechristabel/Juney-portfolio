@@ -211,7 +211,7 @@ function Projects() {
             experience that encourages clients to manage their freight logistics
             with precision and ease.
           </h3>
-          <a href="https://www.google.com/search?q=how+to+cook+jollof&rlz=1C1KNTJ_enNG1084NG1084&oq=how+to+cook+jollof&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcxMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+          <a href="https://www.gettruckdispatch.com">
             <button className="projects__truckbtn">
               <span>—</span> VIEW WEBSITE
             </button>
