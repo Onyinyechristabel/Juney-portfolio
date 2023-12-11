@@ -3,9 +3,10 @@ function Menu() {
   return (
     <div className="menu">
       <div className="menudrop">
-        <h3 className="menu__about">ABOUT</h3>
+        <a href="/about">
+          <h3 className="menu__about">ABOUT</h3>
+        </a>
         <a href="#project__main">
-          {" "}
           <h3 className="menu__projects">PROJECTS</h3>
         </a>
         <button className="menu__btn">
