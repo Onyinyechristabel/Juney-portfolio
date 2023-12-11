@@ -2,10 +2,12 @@
 import "./About.css";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import Menu from "../Menu/Menu";
 function About() {
   return (
     <div className="about">
       <Header />
+      <Menu />
       <div className="about__details">
         <div className="junyaboutpicture">
           <img src="./images/junyabout.png" alt="" className="junyabout__img" />
