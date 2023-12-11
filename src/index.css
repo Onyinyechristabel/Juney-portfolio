@@ -63,3 +63,8 @@ body {
     display: block !important;
   }
 }
+
+button,
+a {
+  cursor: pointer;
+}

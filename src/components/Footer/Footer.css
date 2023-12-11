@@ -89,7 +89,6 @@
     &.open {
       display: flex;
       width: 33rem;
-      margin-top: -3rem;
       margin-bottom: 2rem;
     }
   }
@@ -197,6 +196,7 @@
 
   /* mobile view */
   @media (max-width: 425px) {
+    margin-top: unset;
   }
 }
 

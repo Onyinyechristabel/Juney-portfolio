@@ -146,7 +146,7 @@ function Projects() {
             both parties and ushering in a new era of effective investment
             matchmaking.
           </h3>
-          <a href="https://www.google.com/search?q=how+to+cook+jollof&rlz=1C1KNTJ_enNG1084NG1084&oq=how+to+cook+jollof&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcxMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+          <a href="https://www.behance.net/gallery/181918637/StartO-Casestudy">
             <button className="projects__startbtn">
               <span>—</span> VIEW CASE STUDY
             </button>
