@@ -8,10 +8,13 @@ function About() {
     <div className="about">
       <Header />
       <Menu />
+
       <div className="about__details">
         <div className="junyaboutpicture">
           <img src="./images/junyabout.png" alt="" className="junyabout__img" />
+          <img className="glass" src="./images/glass.png" alt="" />
         </div>
+
         <div className="about__me">
           <h1 className="about__header">Hi there,</h1>
           <h3 className="about__p1">
@@ -45,14 +48,6 @@ function About() {
             <span>—</span>CONTACT ME
           </button>
         </div>
-      </div>
-      <div className="about__icon">
-        <p className="about__tool">TOOL STACK</p>
-        <img src="./images/redpie.png" alt="" className="about__icons" />
-        <img src="./images/whitelogo.png" alt="" className="about__icons" />
-        <img src="./images/notion.png" alt="" className="about__icons" />
-        <img src="./images/rainbow.png" alt="" className="about__icons" />
-        <img src="./images/ps.png" alt="" className="about__icons" />
       </div>
 
       <Footer />

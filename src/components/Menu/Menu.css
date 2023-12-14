@@ -43,17 +43,20 @@
   font-family: "Clash Display", sans-serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
   text-align: center;
-  margin-top: 2.6rem;
+  margin-top: 2.2rem;
+}
+.menu__about:hover {
+  color: #03bfe8;
 }
 .menu__projects {
   color: #fff;
   font-family: "Clash Display", sans-serif;
   font-size: 2rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
   text-align: center;
   margin-top: 2.9rem;

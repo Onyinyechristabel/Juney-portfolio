@@ -1,6 +1,7 @@
 .work {
   width: 144rem;
   margin-left: 9.5rem;
+  position: relative;
   /* tablet view */
   @media (max-width: 1024px) {
     width: 83.4rem;
@@ -11,6 +12,20 @@
     width: 39rem;
     margin-left: 0;
   }
+}
+.arrow__round {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  top: 6.2rem;
+  left: 122rem;
+}
+.arrow {
+  width: 3.6rem;
+  height: 3.6rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
 }
 .work__intro {
   color: #fff;
