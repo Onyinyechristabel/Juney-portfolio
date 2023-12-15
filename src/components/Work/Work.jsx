@@ -1,10 +1,10 @@
-import "./Work.css";
-import { useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/all";
-gsap.registerPlugin(ScrollTrigger);
-let mm = gsap.matchMedia();
-let timeline;
+import "./Work.css"
+import { useEffect } from "react"
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/all"
+gsap.registerPlugin(ScrollTrigger)
+let mm = gsap.matchMedia()
+let timeline
 
 function Work() {
   useEffect(() => {
@@ -22,23 +22,30 @@ function Work() {
           })
           .to("#ux", { yPercent: -100, ease: "linear" })
           .to("#nocode", { yPercent: -107, ease: "linear" }, "<")
-          .to("#nocode", { yPercent: -215, ease: "linear" });
+          .to("#nocode", { yPercent: -215, ease: "linear" })
       }
-    });
-  }, []);
+    })
+  }, [])
   return (
     <div className="work">
       <h2 className="work__intro">
         <span>—</span> WHAT I DO
       </h2>
-      <svg
-        className="arrow__round"
-        xmlns="http://www.w3.org/2000/svg"
-        width="60"
-        height="60"
-        viewBox="0 0 60 60"
-        fill="none"
-      >
+      <div className="arrows">
+        <svg
+          className="arrow__round"
+          xmlns="http://www.w3.org/2000/svg"
+          width="60"
+          height="60"
+          viewBox="0 0 60 60"
+          fill="none"
+        >
+          <path
+            d="M60 30C60 46.5685 46.5685 60 30 60C13.4315 60 0 46.5685 0 30C0 13.4315 13.4315 0 30 0C46.5685 0 60 13.4315 60 30ZM1.97667 30C1.97667 45.4769 14.5231 58.0233 30 58.0233C45.4769 58.0233 58.0233 45.4769 58.0233 30C58.0233 14.5231 45.4769 1.97667 30 1.97667C14.5231 1.97667 1.97667 14.5231 1.97667 30Z"
+            fill="#818181"
+            fillOpacity="0.6"
+          />
+        </svg>
         <svg
           className="arrow"
           xmlns="http://www.w3.org/2000/svg"
@@ -59,12 +66,7 @@ function Work() {
             </clipPath>
           </defs>
         </svg>
-        <path
-          d="M60 30C60 46.5685 46.5685 60 30 60C13.4315 60 0 46.5685 0 30C0 13.4315 13.4315 0 30 0C46.5685 0 60 13.4315 60 30ZM1.97667 30C1.97667 45.4769 14.5231 58.0233 30 58.0233C45.4769 58.0233 58.0233 45.4769 58.0233 30C58.0233 14.5231 45.4769 1.97667 30 1.97667C14.5231 1.97667 1.97667 14.5231 1.97667 30Z"
-          fill="#818181"
-          fillOpacity="0.6"
-        />
-      </svg>
+      </div>
       <main className="work__table">
         <div id="product" className="work__product">
           <div className="work__header">
@@ -117,6 +119,6 @@ function Work() {
         </div>
       </main>
     </div>
-  );
+  )
 }
-export default Work;
+export default Work

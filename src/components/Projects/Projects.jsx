@@ -1,10 +1,10 @@
-import { useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/all";
+import { useEffect } from "react"
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/all"
 
-import "./Projects.css";
-gsap.registerPlugin(ScrollTrigger);
-let timeline;
+import "./Projects.css"
+gsap.registerPlugin(ScrollTrigger)
+let timeline
 
 function Projects() {
   useEffect(() => {
@@ -17,7 +17,7 @@ function Projects() {
         ease: "linear",
         duration: 12,
       }
-    );
+    )
     if (!timeline) {
       timeline = gsap
         .timeline({
@@ -36,7 +36,7 @@ function Projects() {
           {
             scaleX: 1,
           }
-        );
+        )
     }
     // gsap.fromTo(
     //   "#selectline",
@@ -49,7 +49,7 @@ function Projects() {
     //     scrollTrigger: "#selectline",
     //   }
     // );
-  }, []);
+  }, [])
   return (
     <main id="project__main" className="projects">
       <div className="projects__header">
@@ -124,8 +124,20 @@ function Projects() {
         <div className="projects__startimage">
           <img
             id="start0art"
-            className="projects__img"
+            className="projects__img desktop"
             src="./images/Startoimg.png"
+            alt=""
+          />
+          <img
+            id="start0art"
+            className="projects__img tablet"
+            src="./images/sdt.png"
+            alt=""
+          />
+          <img
+            id="start0art"
+            className="projects__img phone"
+            src="./images/smt.png"
             alt=""
           />
         </div>
@@ -178,9 +190,22 @@ function Projects() {
         </div>
         <div className="projects__pickachoimage">
           <img
-            src="./images/Pickachoimg.png"
+            id="start0art"
+            className="projects__pickachoimg desktop"
+            src="./images/Startoimg.png"
             alt=""
-            className="projects__pickachoimg"
+          />
+          <img
+            id="start0art"
+            className="projects__pickachoimg tablet"
+            src="./images/sdt.png"
+            alt=""
+          />
+          <img
+            id="start0art"
+            className="projects__pickachoimg phone"
+            src="./images/smt.png"
+            alt=""
           />
         </div>
       </div>
@@ -188,8 +213,21 @@ function Projects() {
       <div className="projects__truck">
         <div className="projects__truckimage">
           <img
-            className="projects__truckheaderimg"
-            src="./images/Truckimg.png"
+            id="start0art"
+            className="projects__truckheaderimg desktop"
+            src="./images/Startoimg.png"
+            alt=""
+          />
+          <img
+            id="start0art"
+            className="projects__truckheaderimg tablet"
+            src="./images/sdt.png"
+            alt=""
+          />
+          <img
+            id="start0art"
+            className="projects__truckheaderimg phone"
+            src="./images/smt.png"
             alt=""
           />
         </div>
@@ -246,14 +284,27 @@ function Projects() {
         </div>
         <div className="projects__milimage">
           <img
-            src="./images/Milishape.png"
+            id="start0art"
+            className="projects__milimg desktop"
+            src="./images/Startoimg.png"
             alt=""
-            className="projects__milimg"
+          />
+          <img
+            id="start0art"
+            className="projects__milimg tablet"
+            src="./images/sdt.png"
+            alt=""
+          />
+          <img
+            id="start0art"
+            className="projects__milimg phone"
+            src="./images/smt.png"
+            alt=""
           />
         </div>
       </div>
       <div className="projects__line2"></div>
     </main>
-  );
+  )
 }
-export default Projects;
+export default Projects
