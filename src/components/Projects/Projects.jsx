@@ -1,10 +1,10 @@
-import { useEffect } from "react"
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/all"
+import { useEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
-import "./Projects.css"
-gsap.registerPlugin(ScrollTrigger)
-let timeline
+import "./Projects.css";
+gsap.registerPlugin(ScrollTrigger);
+let timeline;
 
 function Projects() {
   useEffect(() => {
@@ -17,7 +17,7 @@ function Projects() {
         ease: "linear",
         duration: 12,
       }
-    )
+    );
     if (!timeline) {
       timeline = gsap
         .timeline({
@@ -36,7 +36,7 @@ function Projects() {
           {
             scaleX: 1,
           }
-        )
+        );
     }
     // gsap.fromTo(
     //   "#selectline",
@@ -49,7 +49,7 @@ function Projects() {
     //     scrollTrigger: "#selectline",
     //   }
     // );
-  }, [])
+  }, []);
   return (
     <main id="project__main" className="projects">
       <div className="projects__header">
@@ -125,13 +125,13 @@ function Projects() {
           <img
             id="start0art"
             className="projects__img desktop"
-            src="./images/Startoimg.png"
+            src="./images/sdt.png"
             alt=""
           />
           <img
             id="start0art"
             className="projects__img tablet"
-            src="./images/sdt.png"
+            src="./images/stt.png"
             alt=""
           />
           <img
@@ -143,7 +143,7 @@ function Projects() {
         </div>
         <div className="projects__startcontents">
           <div className="projects__startheader">
-            <h1 className="projects__starto">start0</h1>
+            <h1 className="projects__starto">startO</h1>
             <img
               src="./images/Startoicon.svg"
               alt=""
@@ -215,19 +215,19 @@ function Projects() {
           <img
             id="start0art"
             className="projects__truckheaderimg desktop"
-            src="./images/Startoimg.png"
+            src="./images/tdt.png"
             alt=""
           />
           <img
             id="start0art"
             className="projects__truckheaderimg tablet"
-            src="./images/sdt.png"
+            src="./images/ttt.png"
             alt=""
           />
           <img
             id="start0art"
             className="projects__truckheaderimg phone"
-            src="./images/smt.png"
+            src="./images/tmt.png"
             alt=""
           />
         </div>
@@ -305,6 +305,6 @@ function Projects() {
       </div>
       <div className="projects__line2"></div>
     </main>
-  )
+  );
 }
-export default Projects
+export default Projects;

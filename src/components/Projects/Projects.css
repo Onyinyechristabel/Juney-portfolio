@@ -662,7 +662,7 @@
   gap: 13.8rem;
   position: relative;
   justify-content: center;
-  margin-bottom: 27.59rem;
+  margin-bottom: 10rem;
   /* tablet view */
   @media (max-width: 1024px) {
     width: 83.6rem;
