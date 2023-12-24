@@ -44,9 +44,11 @@ function About() {
             for exciting opportunities. I'd love to hear more about your
             project.
           </h3>
-          <button className="about__btn">
-            <span>—</span>CONTACT ME
-          </button>
+          <a href="mailto:Oguadinmajachimike@gmail.com?subject=Let%E2%80%99s%20create%20something%20amazing%20together!&body=Hi%2C%20I%E2%80%99m%20%E2%80%A6">
+            <button className="about__btn">
+              <span>—</span>CONTACT ME
+            </button>
+          </a>
         </div>
       </div>
 

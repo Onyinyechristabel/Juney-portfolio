@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Statement from "./components/Statement/Statement";
 import Footer from "./components/Footer/Footer";
 import AboutPage from "./components/About/About";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {

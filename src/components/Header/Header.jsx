@@ -27,7 +27,7 @@ function Header() {
           <a href="#project__main">
             <h4 className="nav__about">PROJECTS</h4>
           </a>
-          <a href="resume.pdf">
+          <a href="https://jachimike.notion.site/jachimike/RESUME-bbfc2f2aa0e6422c9a0a653b82dd1705">
             <button className="nav__resume">
               {" "}
               <span className="dash">— </span>RESUME

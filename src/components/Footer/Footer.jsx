@@ -91,7 +91,7 @@ function Footer() {
       <span className="footer__line"></span>
       <div className="footer__footer">
         <h4 className="footer__foot">© 2023. JUNEY. DESIGNED BY ME.</h4>
-        <a href="resume.pdf">
+        <a href="https://jachimike.notion.site/jachimike/RESUME-bbfc2f2aa0e6422c9a0a653b82dd1705">
           <button className="footer__footbtn">
             <span>—</span> RESUME
           </button>

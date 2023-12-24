@@ -88,6 +88,9 @@
     display: none;
   }
 }
+.nav__about:hover {
+  color: #03bfe8;
+}
 
 .nav__resume {
   display: flex;
