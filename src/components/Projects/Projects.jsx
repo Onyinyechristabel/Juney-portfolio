@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
@@ -182,7 +183,7 @@ function Projects() {
             experienced by crypto wallet users on a global scale. It offers a
             secure, user-friendly, and feature-rich wallet for crypto users.
           </h3>
-          <a href="https://www.google.com/search?q=how+to+cook+jollof&rlz=1C1KNTJ_enNG1084NG1084&oq=how+to+cook+jollof&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcxMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+          <a href="https://www.behance.net/gallery/164242769/PiKACHU-WALLET-%28A-Fun-Project%29">
             <button className="projects__pickachobtn">
               <span>—</span> VIEW CASE STUDY
             </button>
@@ -192,19 +193,19 @@ function Projects() {
           <img
             id="start0art"
             className="projects__pickachoimg desktop"
-            src="./images/Startoimg.png"
+            src="./images/ptd.png"
             alt=""
           />
           <img
             id="start0art"
             className="projects__pickachoimg tablet"
-            src="./images/sdt.png"
+            src="./images/ptt.jpg"
             alt=""
           />
           <img
             id="start0art"
             className="projects__pickachoimg phone"
-            src="./images/smt.png"
+            src="./images/ptm.png"
             alt=""
           />
         </div>
@@ -264,19 +265,19 @@ function Projects() {
             alt=""
             className="projects__milicon"
           />
-          <h1 className="projects__milhh">millenium concierge</h1>
+          <h1 className="projects__milhh">listening</h1>
 
           <h3 className="projects__milabout">
-            Totally redesigned Millennium’s concierge website.{" "}
+            Listening is a product where you upload your documents, and it
+            converts them into listenable content, offering a convenient and
+            accessible way to absorb information on the go.
           </h3>
           <h3 className="projects__milabout2">
-            At first I saw the website’s design and wondered if they had a
-            design team at all because it had tons of UX and UI flaws, so i
-            decided the work on it during my spare time, sent to the CEO and he
-            totally loved the redesign. Currently I’m working with their dev
-            team to implement the new design.
+            I've meticulously redesigned the app's landing page, crafting an
+            engaging space that seamlessly marries aesthetics and user
+            experience.
           </h3>
-          <a href="https://www.google.com/search?q=how+to+cook+jollof&rlz=1C1KNTJ_enNG1084NG1084&oq=how+to+cook+jollof&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDcxMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+          <a href="https://www.behance.net/gallery/187380953/Listeningio-Landing-Page-Redesign">
             <button className="projects__milbtn">
               <span>—</span> VIEW CASE STUDY
             </button>
@@ -286,19 +287,19 @@ function Projects() {
           <img
             id="start0art"
             className="projects__milimg desktop"
-            src="./images/Startoimg.png"
+            src="./images/ltd.png"
             alt=""
           />
           <img
             id="start0art"
             className="projects__milimg tablet"
-            src="./images/sdt.png"
+            src="./images/ltt.png"
             alt=""
           />
           <img
             id="start0art"
             className="projects__milimg phone"
-            src="./images/smt.png"
+            src="./images/ltd.png"
             alt=""
           />
         </div>
