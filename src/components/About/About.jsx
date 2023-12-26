@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./About.css";
-import Header from "../Header/Header";
+import Header from "../Header copy/Header";
 import Footer from "../Footer/Footer";
 import Menu from "../Menu/Menu";
 function About() {

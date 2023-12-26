@@ -274,7 +274,7 @@ function Projects() {
           </h3>
           <h3 className="projects__milabout2">
             I've meticulously redesigned the app's landing page, crafting an
-            engaging space that seamlessly marries aesthetics and user
+            engaging space that seamlessly blends aesthetics and user
             experience.
           </h3>
           <a href="https://www.behance.net/gallery/187380953/Listeningio-Landing-Page-Redesign">
