@@ -58,7 +58,7 @@ function Projects() {
         <span id="selectline" className="projects__line"></span>
       </div>
       <h3 className="projects__contents">
-        Over the past years, Ive worked with amazing teams to bring dreams to
+        Over the past years, I've worked with amazing teams to bring dreams to
         life by creating and contributing to some awesome projects. Here are
         some of them.
       </h3>
@@ -178,7 +178,7 @@ function Projects() {
             <h1 className="projects__pickachohh">pikachu</h1>
           </div>
           <h3 className="projects__pickachoabout">
-            Pikachu is basically a fun side project i took on with a friend, we
+            Pikachu is basically a fun side project I took on with a friend, we
             designed a not-so boring app to solve the current pain points
             experienced by crypto wallet users on a global scale. It offers a
             secure, user-friendly, and feature-rich wallet for crypto users.

@@ -60,8 +60,8 @@ function Work() {
           <span className="work__line"></span>
           <div className="work__contents">
             <p className="work__contentsp">
-              I simply just love solving user-related problems, asides having
-              the formal skill to do so. I help figure out why you have less
+              I just love solving user-related problems, asides having the
+              formal skill to do so. I help figure out why you have less
               returning customers, and then iterate to give them a better
               experience.
             </p>
