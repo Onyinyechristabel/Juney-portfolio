@@ -27,7 +27,11 @@ function Header() {
           <a href="#project__main">
             <h4 className="nav__about">PROJECTS</h4>
           </a>
-          <a href="https://jachimike.notion.site/jachimike/RESUME-bbfc2f2aa0e6422c9a0a653b82dd1705">
+          <a
+            href="https://jachimike.notion.site/jachimike/RESUME-bbfc2f2aa0e6422c9a0a653b82dd1705"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="nav__resume">
               {" "}
               <span className="dash">— </span>RESUME

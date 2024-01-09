@@ -159,7 +159,11 @@ function Projects() {
             both parties and ushering in a new era of effective investment
             matchmaking.
           </h3>
-          <a href="https://www.behance.net/gallery/181918637/StartO-Casestudy">
+          <a
+            href="https://www.behance.net/gallery/181918637/StartO-Casestudy"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="projects__startbtn">
               <span>—</span> VIEW CASE STUDY
             </button>
@@ -183,7 +187,11 @@ function Projects() {
             experienced by crypto wallet users on a global scale. It offers a
             secure, user-friendly, and feature-rich wallet for crypto users.
           </h3>
-          <a href="https://www.behance.net/gallery/164242769/PiKACHU-WALLET-%28A-Fun-Project%29">
+          <a
+            href="https://www.behance.net/gallery/164242769/PiKACHU-WALLET-%28A-Fun-Project%29"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="projects__pickachobtn">
               <span>—</span> VIEW CASE STUDY
             </button>
@@ -250,7 +258,11 @@ function Projects() {
             experience that encourages clients to manage their freight logistics
             with precision and ease.
           </h3>
-          <a href="https://www.gettruckdispatch.com">
+          <a
+            href="https://www.gettruckdispatch.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="projects__truckbtn">
               <span>—</span> VIEW WEBSITE
             </button>
@@ -277,7 +289,11 @@ function Projects() {
             engaging space that seamlessly blends aesthetics and user
             experience.
           </h3>
-          <a href="https://www.behance.net/gallery/187380953/Listeningio-Landing-Page-Redesign">
+          <a
+            href="https://www.behance.net/gallery/187380953/Listeningio-Landing-Page-Redesign"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="projects__milbtn">
               <span>—</span> VIEW CASE STUDY
             </button>
